@@ -8,10 +8,8 @@ package com.javarush.test.level03.lesson05.task01;
 Mark Elliot Zuckerberg
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    public static void main(String[] args) {
         Student student = new Student();
         student.firstName = "Mark";
         student.middleName = "Elliot";
@@ -19,13 +17,11 @@ public class Solution
         printFullName(student);
     }
 
-    public static void printFullName(Student student)
-    {
+    public static void printFullName(Student student) {
         System.out.print(student.firstName + ' ' + student.middleName + ' ' + student.lastName);
     }
 
-    public static class Student
-    {
+    public static class Student {
         public String firstName;
         public String middleName;
         public String lastName;

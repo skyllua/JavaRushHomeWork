@@ -7,15 +7,12 @@ package com.javarush.test.level03.lesson05.task02;
 printing: Hello world!
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    public static void main(String[] args) {
         writeToConsole("Hello world!");
     }
 
-    public static void writeToConsole(String s)
-    {
+    public static void writeToConsole(String s) {
         System.out.println("printing: " + s);
     }
 }

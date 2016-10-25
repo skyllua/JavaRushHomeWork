@@ -15,10 +15,8 @@ package com.javarush.test.level03.lesson04.task05;
 ...
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    public static void main(String[] args) {
         for (int i = 1; i <= 10; i++) {
             int sum = 0;
             for (int j = 1; j <= i; j++) {
